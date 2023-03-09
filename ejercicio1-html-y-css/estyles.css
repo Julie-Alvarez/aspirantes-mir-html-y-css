@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.registro {
+    width: 300px;
+    background: linear-gradient(blue, pink);
+    padding: 20px;
+    margin: auto;
+    margin-top: 100px;
+    border-radius: 20px;
+    font-family: 'calibri';
+    color: white;
+    box-shadow: 7px 13px 37px #000;
+  }
+  
+  .registro h3 {
+    font-size: 22px;
+    margin-bottom: 20px;
+  }
+  .controls{
+    width: 100%;
+    padding: 7px;
+    margin-top: 30px;
+   }
+  
+   .selector{
+    width: 100%;
+    padding: 7px;
+    margin-top: 30px;
+    border: none;
+   }
+  .registro .botons {
+    width: 55px;
+    background: hsl(323, 73%, 45%);
+    border: none;
+    padding: 5px;
+    color: white;
+    margin: 16px 0;
+    font-size: 12px;
+    position: relative;
+    left: 70%;
+  }
+  .registro .botons:hover{
+    background-color: #3eebdc;
+  }
+  @media (min-width:500px) {
+    
+  }
